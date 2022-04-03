@@ -5,7 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 @SpringBootApplication
-@EntityScan(basePackages = {"dev.fullstackcode.tc.docker.entity"})
 public class TestcontainersDockerApplication {
 
 	public static void main(String[] args) {
