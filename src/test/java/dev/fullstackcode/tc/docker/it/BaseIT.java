@@ -17,12 +17,16 @@ import static org.springframework.boot.test.context.SpringBootTest.WebEnvironmen
 @DirtiesContext
 public  class BaseIT {
 
-	@Container
-	public static MySQLContainer<?> mySqlDB = new MySQLContainer<>
-			("mysql:5.7.37")
-			.withDatabaseName("eis")
-			.withUsername("admin")
-			.withPassword("admin");
+	public static MySQLContainer<?> mySqlDB;
+
+	static {
+		mySqlDB = new MySQLContainer<>("postgres:mysql:5.7.37")
+				.withDatabaseName("eis")
+				.withUsername("admin")
+				.withPassword("admin");
+
+		mySqlDB.start();
+	}
 
 
 	@DynamicPropertySource

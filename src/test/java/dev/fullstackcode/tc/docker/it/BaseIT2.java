@@ -19,13 +19,16 @@ import static org.springframework.boot.test.context.SpringBootTest.WebEnvironmen
 @Testcontainers
 @DirtiesContext
 public  class BaseIT2 {
+	public static MySQLContainer<?> mySqlDB;
 
-	@Container
-	public static MySQLContainer<?> mySqlDB = new MySQLContainer<>
-			("mysql:5.7.37")
-			.withDatabaseName("eis")
-			.withUsername("admin")
-			.withPassword("admin");
+	static {
+		mySqlDB = new MySQLContainer<>("postgres:mysql:5.7.37")
+				.withDatabaseName("eis")
+				.withUsername("admin")
+				.withPassword("admin");
+
+		mySqlDB.start();
+	}
 
 
 	static class TestEnvInitializer implements ApplicationContextInitializer<ConfigurableApplicationContext> {
