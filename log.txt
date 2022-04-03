@@ -1,0 +1,190 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< dev.fullstackcode.tc:springboot-tc-mysql >--------------
+[INFO] Building springboot-tc-mysql 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ springboot-tc-mysql ---
+[INFO] Deleting D:\IdeaProjects\springboot-tc-mysql\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ springboot-tc-mysql ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ springboot-tc-mysql ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 12 source files to D:\IdeaProjects\springboot-tc-mysql\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ springboot-tc-mysql ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ springboot-tc-mysql ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to D:\IdeaProjects\springboot-tc-mysql\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ springboot-tc-mysql ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:3.2.2:jar (default-jar) @ springboot-tc-mysql ---
+[INFO] Building jar: D:\IdeaProjects\springboot-tc-mysql\target\springboot-tc-mysql-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.6.6:repackage (repackage) @ springboot-tc-mysql ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- maven-failsafe-plugin:3.0.0-M5:integration-test (default) @ springboot-tc-mysql ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running dev.fullstackcode.tc.docker.it.DepartmentControllerIT
+20:00:41.393 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+20:00:41.403 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+20:00:41.450 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [dev.fullstackcode.tc.docker.it.DepartmentControllerIT] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+20:00:41.463 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [dev.fullstackcode.tc.docker.it.DepartmentControllerIT], using SpringBootContextLoader
+20:00:41.467 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [dev.fullstackcode.tc.docker.it.DepartmentControllerIT]: class path resource [dev/fullstackcode/tc/docker/it/DepartmentControllerIT-context.xml] does not exist
+20:00:41.468 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [dev.fullstackcode.tc.docker.it.DepartmentControllerIT]: class path resource [dev/fullstackcode/tc/docker/it/DepartmentControllerITContext.groovy] does not exist
+20:00:41.468 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [dev.fullstackcode.tc.docker.it.DepartmentControllerIT]: no resource found for suffixes {-context.xml, Context.groovy}.
+20:00:41.468 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [dev.fullstackcode.tc.docker.it.DepartmentControllerIT]: DepartmentControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:00:41.522 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [dev.fullstackcode.tc.docker.it.DepartmentControllerIT]
+20:00:41.611 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\IdeaProjects\springboot-tc-mysql\target\classes\dev\fullstackcode\tc\docker\TestcontainersDockerApplication.class]
+20:00:41.613 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration dev.fullstackcode.tc.docker.TestcontainersDockerApplication for test class dev.fullstackcode.tc.docker.it.DepartmentControllerIT
+20:00:41.780 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [dev.fullstackcode.tc.docker.it.DepartmentControllerIT]: using defaults.
+20:00:41.782 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+20:00:41.809 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@16ce702d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7b94089b, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7ca20101, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@47f9738, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6155d082, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3a5ecce3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@561868a0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2ea6e30c, org.springframework.test.context.event.EventPublishingTestExecutionListener@6138e79a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2dcd168a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@388526fb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@21a21c64, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7803bfd, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@42bc14c1, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@531f4093]
+20:00:41.815 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@6995bf68 testClass = DepartmentControllerIT, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5143c662 testClass = DepartmentControllerIT, locations = '{}', classes = '{class dev.fullstackcode.tc.docker.TestcontainersDockerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2a265ea9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6e6f2380, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@563f38c4, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@2034b64c, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@35dab4eb, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@10b48321], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> false]], class annotated with @DirtiesContext [false] with mode [null].
+20:00:41.835 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@6995bf68 testClass = DepartmentControllerIT, testInstance = dev.fullstackcode.tc.docker.it.DepartmentControllerIT@2f40e5db, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5143c662 testClass = DepartmentControllerIT, locations = '{}', classes = '{class dev.fullstackcode.tc.docker.TestcontainersDockerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2a265ea9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6e6f2380, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@563f38c4, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@2034b64c, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@35dab4eb, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@10b48321], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> false, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.6)
+
+2022-04-03 20:00:42.273  INFO 25980 --- [           main] d.f.tc.docker.it.DepartmentControllerIT  : Starting DepartmentControllerIT using Java 18 on DESKTOP-I2JE5RO with PID 25980 (started by deepika in D:\IdeaProjects\springboot-tc-mysql)
+2022-04-03 20:00:42.273  INFO 25980 --- [           main] d.f.tc.docker.it.DepartmentControllerIT  : No active profile set, falling back to 1 default profile: "default"
+2022-04-03 20:00:43.031  INFO 25980 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-03 20:00:43.171  INFO 25980 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 128 ms. Found 2 JPA repository interfaces.
+2022-04-03 20:00:44.197  INFO 25980 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-04-03 20:00:44.214  INFO 25980 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-03 20:00:44.215  INFO 25980 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-03 20:00:44.391  INFO 25980 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-03 20:00:44.391  INFO 25980 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2088 ms
+2022-04-03 20:00:44.868  INFO 25980 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-03 20:00:44.971  INFO 25980 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-03 20:00:45.236  INFO 25980 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-03 20:00:45.408  INFO 25980 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-03 20:00:45.488  INFO 25980 --- [           main] o.t.d.DockerClientProviderStrategy       : Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2022-04-03 20:00:46.113  INFO 25980 --- [           main] o.t.d.DockerClientProviderStrategy       : Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2022-04-03 20:00:46.113  INFO 25980 --- [           main] org.testcontainers.DockerClientFactory   : Docker host IP address is localhost
+2022-04-03 20:00:46.223  INFO 25980 --- [           main] org.testcontainers.DockerClientFactory   : Connected to docker: 
+  Server Version: 20.10.7
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 7870 MB
+2022-04-03 20:00:46.223  INFO 25980 --- [           main] org.testcontainers.DockerClientFactory   : Checking the system...
+2022-04-03 20:00:46.224  INFO 25980 --- [           main] org.testcontainers.DockerClientFactory   : ✔︎ Docker server version should be at least 1.6.0
+2022-04-03 20:00:46.226  INFO 25980 --- [           main] o.t.utility.ImageNameSubstitutor         : Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2022-04-03 20:00:48.333  INFO 25980 --- [           main] org.testcontainers.DockerClientFactory   : ✔︎ Docker environment should have more than 2GB free disk space
+2022-04-03 20:00:48.893  INFO 25980 --- [           main] 🐳 [mysql:5.7.34]                        : Creating container for image: mysql:5.7.34
+2022-04-03 20:00:49.165  INFO 25980 --- [           main] 🐳 [mysql:5.7.34]                        : Container mysql:5.7.34 is starting: 9429aae533a799e1d267c0123cd6a20b84e12b13158418c2429f36e920a0908d
+2022-04-03 20:00:50.007  INFO 25980 --- [           main] 🐳 [mysql:5.7.34]                        : Waiting for database connection to become available at jdbc:mysql://localhost:57282/test using query 'SELECT 1'
+2022-04-03 20:01:05.541  INFO 25980 --- [           main] 🐳 [mysql:5.7.34]                        : Container is started (JDBC URL: jdbc:mysql://localhost:57282/test)
+2022-04-03 20:01:05.542  INFO 25980 --- [           main] 🐳 [mysql:5.7.34]                        : Container mysql:5.7.34 started in PT16.7153275S
+2022-04-03 20:01:05.582  INFO 25980 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-03 20:01:05.609  INFO 25980 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-04-03 20:01:06.405 DEBUG 25980 --- [           main] org.hibernate.SQL                        : create table department (id integer not null, name varchar(255), primary key (id)) engine=InnoDB
+Hibernate: create table department (id integer not null, name varchar(255), primary key (id)) engine=InnoDB
+2022-04-03 20:01:06.480 DEBUG 25980 --- [           main] org.hibernate.SQL                        : create table employee (id integer not null auto_increment, birth_date date, first_name varchar(255), gender varchar(255), hire_date date, last_name varchar(255), department_id integer, primary key (id)) engine=InnoDB
+Hibernate: create table employee (id integer not null auto_increment, birth_date date, first_name varchar(255), gender varchar(255), hire_date date, last_name varchar(255), department_id integer, primary key (id)) engine=InnoDB
+2022-04-03 20:01:06.559 DEBUG 25980 --- [           main] org.hibernate.SQL                        : create table hibernate_sequence (next_val bigint) engine=InnoDB
+Hibernate: create table hibernate_sequence (next_val bigint) engine=InnoDB
+2022-04-03 20:01:06.613 DEBUG 25980 --- [           main] org.hibernate.SQL                        : insert into hibernate_sequence values ( 1 )
+Hibernate: insert into hibernate_sequence values ( 1 )
+2022-04-03 20:01:06.629 DEBUG 25980 --- [           main] org.hibernate.SQL                        : alter table employee add constraint FKbejtwvg9bxus2mffsm3swj3u9 foreign key (department_id) references department (id)
+Hibernate: alter table employee add constraint FKbejtwvg9bxus2mffsm3swj3u9 foreign key (department_id) references department (id)
+2022-04-03 20:01:06.753  INFO 25980 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-03 20:01:06.760  INFO 25980 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-03 20:01:07.551  WARN 25980 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-03 20:01:08.660  INFO 25980 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 63539 (http) with context path ''
+2022-04-03 20:01:08.677  INFO 25980 --- [           main] d.f.tc.docker.it.DepartmentControllerIT  : Started DepartmentControllerIT in 26.801 seconds (JVM running for 28.165)
+2022-04-03 20:01:09.218  INFO 25980 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-03 20:01:09.218  INFO 25980 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-03 20:01:09.219  INFO 25980 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-03 20:01:09.328 DEBUG 25980 --- [o-auto-1-exec-1] org.hibernate.SQL                        : select department0_.id as id1_0_0_, department0_.name as name2_0_0_ from department department0_ where department0_.id=?
+Hibernate: select department0_.id as id1_0_0_, department0_.name as name2_0_0_ from department department0_ where department0_.id=?
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 28.086 s - in dev.fullstackcode.tc.docker.it.DepartmentControllerIT
+[INFO] Running dev.fullstackcode.tc.docker.it.EmployeeControllerIT
+2022-04-03 20:01:09.411  INFO 25980 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [dev.fullstackcode.tc.docker.it.EmployeeControllerIT], using SpringBootContextLoader
+2022-04-03 20:01:09.412  INFO 25980 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [dev.fullstackcode.tc.docker.it.EmployeeControllerIT]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-04-03 20:01:09.412  INFO 25980 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [dev.fullstackcode.tc.docker.it.EmployeeControllerIT]: EmployeeControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-04-03 20:01:09.414  INFO 25980 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration dev.fullstackcode.tc.docker.TestcontainersDockerApplication for test class dev.fullstackcode.tc.docker.it.EmployeeControllerIT
+2022-04-03 20:01:09.416  INFO 25980 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-04-03 20:01:09.416  INFO 25980 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7d41aefd, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@feb57b4, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7893b8c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@45398bb0, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@35ffe3ac, org.springframework.test.context.support.DirtiesContextTestExecutionListener@60fc4450, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2e674698, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@270a3cef, org.springframework.test.context.event.EventPublishingTestExecutionListener@6d224921, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6f7e5e11, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7bb996e0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@da2303c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@72b60be8, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6f254d79, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@589cc8eb]
+100
+2022-04-03 20:01:09.555 DEBUG 25980 --- [o-auto-1-exec-2] org.hibernate.SQL                        : select employee0_.id as id1_1_0_, employee0_.birth_date as birth_da2_1_0_, employee0_.department_id as departme7_1_0_, employee0_.first_name as first_na3_1_0_, employee0_.gender as gender4_1_0_, employee0_.hire_date as hire_dat5_1_0_, employee0_.last_name as last_nam6_1_0_, department1_.id as id1_0_1_, department1_.name as name2_0_1_ from employee employee0_ left outer join department department1_ on employee0_.department_id=department1_.id where employee0_.id=?
+Hibernate: select employee0_.id as id1_1_0_, employee0_.birth_date as birth_da2_1_0_, employee0_.department_id as departme7_1_0_, employee0_.first_name as first_na3_1_0_, employee0_.gender as gender4_1_0_, employee0_.hire_date as hire_dat5_1_0_, employee0_.last_name as last_nam6_1_0_, department1_.id as id1_0_1_, department1_.name as name2_0_1_ from employee employee0_ left outer join department department1_ on employee0_.department_id=department1_.id where employee0_.id=?
+2022-04-03 20:01:09.564  WARN 25980 --- [o-auto-1-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Unable to find dev.fullstackcode.tc.docker.entity.Employee with id 100; nested exception is com.fasterxml.jackson.databind.JsonMappingException: Unable to find dev.fullstackcode.tc.docker.entity.Employee with id 100 (through reference chain: dev.fullstackcode.tc.docker.entity.Employee$HibernateProxy$sa70xIyO["first_name"])]
+2022-04-03 20:01:09.743 DEBUG 25980 --- [o-auto-1-exec-3] org.hibernate.SQL                        : SHOW DATABASES
+Hibernate: SHOW DATABASES
+[information_schema, test]
+2022-04-03 20:01:09.755 DEBUG 25980 --- [o-auto-1-exec-3] org.hibernate.SQL                        : SHOW SCHEMAS
+Hibernate: SHOW SCHEMAS
+[information_schema, test]
+2022-04-03 20:01:09.761 DEBUG 25980 --- [o-auto-1-exec-3] org.hibernate.SQL                        : SHOW TABLES
+Hibernate: SHOW TABLES
+[department, employee, hibernate_sequence]
+2022-04-03 20:01:09.766 DEBUG 25980 --- [o-auto-1-exec-3] org.hibernate.SQL                        : SELECT DATABASE()
+Hibernate: SELECT DATABASE()
+[test]
+2022-04-03 20:01:09.770 DEBUG 25980 --- [o-auto-1-exec-3] org.hibernate.SQL                        : SELECT COLUMN_NAME, TABLE_NAME,table_schema FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME='employee';
+Hibernate: SELECT COLUMN_NAME, TABLE_NAME,table_schema FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME='employee';
+[[Ljava.lang.Object;@5ac3abe8, [Ljava.lang.Object;@1c954b59, [Ljava.lang.Object;@78da03fa, [Ljava.lang.Object;@69b0138b, [Ljava.lang.Object;@2eeb69be, [Ljava.lang.Object;@189230b9, [Ljava.lang.Object;@307f2582]
+2022-04-03 20:01:09.804 DEBUG 25980 --- [o-auto-1-exec-3] org.hibernate.SQL                        : insert into employee (birth_date, department_id, first_name, gender, hire_date, last_name) values (?, ?, ?, ?, ?, ?)
+Hibernate: insert into employee (birth_date, department_id, first_name, gender, hire_date, last_name) values (?, ?, ?, ?, ?, ?)
+Employee{id=9, first_name='abc', last_name='xyz', gender=F, birth_date=1980-11-11, hire_date=2020-01-01, department=dev.fullstackcode.tc.docker.entity.Department@484b187c}
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.446 s <<< FAILURE! - in dev.fullstackcode.tc.docker.it.EmployeeControllerIT
+[ERROR] dev.fullstackcode.tc.docker.it.EmployeeControllerIT.testGetEmployeeById  Time elapsed: 0.172 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <100> but was: <null>
+	at dev.fullstackcode.tc.docker.it.EmployeeControllerIT.testGetEmployeeById(EmployeeControllerIT.java:50)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   EmployeeControllerIT.testGetEmployeeById:50 expected: <100> but was: <null>
+[INFO] 
+[ERROR] Tests run: 3, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-failsafe-plugin:3.0.0-M5:verify (default) @ springboot-tc-mysql ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  38.823 s
+[INFO] Finished at: 2022-04-03T20:01:11+12:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-failsafe-plugin:3.0.0-M5:verify (default) on project springboot-tc-mysql: There are test failures.
+[ERROR] 
+[ERROR] Please refer to D:\IdeaProjects\springboot-tc-mysql\target\failsafe-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
